@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */; };
+		DEE3299E1B64DB93009DEAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299D1B64DB93009DEAC3 /* main.m */; };
+		DEE329A11B64DB93009DEAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE329A01B64DB93009DEAC3 /* ViewController.m */; };
+		DEE329A31B64DB93009DEAC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A21B64DB93009DEAC3 /* Images.xcassets */; };
+		DEE329A61B64DB93009DEAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A41B64DB93009DEAC3 /* Main.storyboard */; };
+		DEE329B21B64DB93009DEAC3 /* Myo_Apps_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE329AC1B64DB93009DEAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE3298D1B64DB93009DEAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE329941B64DB93009DEAC3;
+			remoteInfo = "Myo-Apps Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE329951B64DB93009DEAC3 /* Myo-Apps Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myo-Apps Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE329991B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE3299A1B64DB93009DEAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEE3299D1B64DB93009DEAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE3299F1B64DB93009DEAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEE329A01B64DB93009DEAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEE329A21B64DB93009DEAC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEE329A51B64DB93009DEAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE329AB1B64DB93009DEAC3 /* Myo-Apps ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo-Apps ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE329B01B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_Apps_ControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE329921B64DB93009DEAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE329A81B64DB93009DEAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE3298C1B64DB93009DEAC3 = {
+			isa = PBXGroup;
+			children = (
+				DEE329971B64DB93009DEAC3 /* Myo-Apps Control */,
+				DEE329AE1B64DB93009DEAC3 /* Myo-Apps ControlTests */,
+				DEE329961B64DB93009DEAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE329961B64DB93009DEAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE329951B64DB93009DEAC3 /* Myo-Apps Control.app */,
+				DEE329AB1B64DB93009DEAC3 /* Myo-Apps ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE329971B64DB93009DEAC3 /* Myo-Apps Control */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3299A1B64DB93009DEAC3 /* AppDelegate.h */,
+				DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */,
+				DEE3299F1B64DB93009DEAC3 /* ViewController.h */,
+				DEE329A01B64DB93009DEAC3 /* ViewController.m */,
+				DEE329A21B64DB93009DEAC3 /* Images.xcassets */,
+				DEE329A41B64DB93009DEAC3 /* Main.storyboard */,
+				DEE329981B64DB93009DEAC3 /* Supporting Files */,
+			);
+			path = "Myo-Apps Control";
+			sourceTree = "<group>";
+		};
+		DEE329981B64DB93009DEAC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE329991B64DB93009DEAC3 /* Info.plist */,
+				DEE3299D1B64DB93009DEAC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE329AE1B64DB93009DEAC3 /* Myo-Apps ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */,
+				DEE329AF1B64DB93009DEAC3 /* Supporting Files */,
+			);
+			path = "Myo-Apps ControlTests";
+			sourceTree = "<group>";
+		};
+		DEE329AF1B64DB93009DEAC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE329B01B64DB93009DEAC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE329941B64DB93009DEAC3 /* Myo-Apps Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE329B51B64DB93009DEAC3 /* Build configuration list for PBXNativeTarget "Myo-Apps Control" */;
+			buildPhases = (
+				DEE329911B64DB93009DEAC3 /* Sources */,
+				DEE329921B64DB93009DEAC3 /* Frameworks */,
+				DEE329931B64DB93009DEAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myo-Apps Control";
+			productName = "Myo-Apps Control";
+			productReference = DEE329951B64DB93009DEAC3 /* Myo-Apps Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE329AA1B64DB93009DEAC3 /* Myo-Apps ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE329B81B64DB93009DEAC3 /* Build configuration list for PBXNativeTarget "Myo-Apps ControlTests" */;
+			buildPhases = (
+				DEE329A71B64DB93009DEAC3 /* Sources */,
+				DEE329A81B64DB93009DEAC3 /* Frameworks */,
+				DEE329A91B64DB93009DEAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE329AD1B64DB93009DEAC3 /* PBXTargetDependency */,
+			);
+			name = "Myo-Apps ControlTests";
+			productName = "Myo-Apps ControlTests";
+			productReference = DEE329AB1B64DB93009DEAC3 /* Myo-Apps ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE3298D1B64DB93009DEAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BT;
+				TargetAttributes = {
+					DEE329941B64DB93009DEAC3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DEE329AA1B64DB93009DEAC3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DEE329941B64DB93009DEAC3;
+					};
+				};
+			};
+			buildConfigurationList = DEE329901B64DB93009DEAC3 /* Build configuration list for PBXProject "Myo-Apps Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE3298C1B64DB93009DEAC3;
+			productRefGroup = DEE329961B64DB93009DEAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE329941B64DB93009DEAC3 /* Myo-Apps Control */,
+				DEE329AA1B64DB93009DEAC3 /* Myo-Apps ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE329931B64DB93009DEAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE329A31B64DB93009DEAC3 /* Images.xcassets in Resources */,
+				DEE329A61B64DB93009DEAC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE329A91B64DB93009DEAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE329911B64DB93009DEAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE329A11B64DB93009DEAC3 /* ViewController.m in Sources */,
+				DEE3299E1B64DB93009DEAC3 /* main.m in Sources */,
+				DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE329A71B64DB93009DEAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE329B21B64DB93009DEAC3 /* Myo_Apps_ControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE329AD1B64DB93009DEAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE329941B64DB93009DEAC3 /* Myo-Apps Control */;
+			targetProxy = DEE329AC1B64DB93009DEAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE329A41B64DB93009DEAC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE329A51B64DB93009DEAC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE329B31B64DB93009DEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEE329B41B64DB93009DEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEE329B61B64DB93009DEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Myo-Apps Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE329B71B64DB93009DEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Myo-Apps Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE329B91B64DB93009DEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo-Apps ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo-Apps Control.app/Contents/MacOS/Myo-Apps Control";
+			};
+			name = Debug;
+		};
+		DEE329BA1B64DB93009DEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo-Apps ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo-Apps Control.app/Contents/MacOS/Myo-Apps Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE329901B64DB93009DEAC3 /* Build configuration list for PBXProject "Myo-Apps Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE329B31B64DB93009DEAC3 /* Debug */,
+				DEE329B41B64DB93009DEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE329B51B64DB93009DEAC3 /* Build configuration list for PBXNativeTarget "Myo-Apps Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE329B61B64DB93009DEAC3 /* Debug */,
+				DEE329B71B64DB93009DEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE329B81B64DB93009DEAC3 /* Build configuration list for PBXNativeTarget "Myo-Apps ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE329B91B64DB93009DEAC3 /* Debug */,
+				DEE329BA1B64DB93009DEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE3298D1B64DB93009DEAC3 /* Project object */;
+}
