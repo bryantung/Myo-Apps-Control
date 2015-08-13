@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5DD1A71B66192B0040603D /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DEE329BB1B64DD2A009DEAC3 /* myo.framework */; };
 		DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */; };
 		DEE3299E1B64DB93009DEAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299D1B64DB93009DEAC3 /* main.m */; };
-		DEE329A11B64DB93009DEAC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE329A01B64DB93009DEAC3 /* ViewController.m */; };
+		DEE329A11B64DB93009DEAC3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEE329A01B64DB93009DEAC3 /* ViewController.mm */; };
 		DEE329A31B64DB93009DEAC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A21B64DB93009DEAC3 /* Images.xcassets */; };
 		DEE329A61B64DB93009DEAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A41B64DB93009DEAC3 /* Main.storyboard */; };
 		DEE329B21B64DB93009DEAC3 /* Myo_Apps_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */; };
+		DEE329BC1B64DD2A009DEAC3 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE329BB1B64DD2A009DEAC3 /* myo.framework */; };
+		DEE329C61B64E1ED009DEAC3 /* MyoHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DE5DD1A61B6619220040603D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE5DD1A71B66192B0040603D /* myo.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DEE329951B64DB93009DEAC3 /* Myo-Apps Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myo-Apps Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE329991B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,12 +48,15 @@
 		DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DEE3299D1B64DB93009DEAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEE3299F1B64DB93009DEAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEE329A01B64DB93009DEAC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEE329A01B64DB93009DEAC3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		DEE329A21B64DB93009DEAC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DEE329A51B64DB93009DEAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE329AB1B64DB93009DEAC3 /* Myo-Apps ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo-Apps ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE329B01B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_Apps_ControlTests.m; sourceTree = "<group>"; };
+		DEE329BB1B64DD2A009DEAC3 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myo.framework; path = "Myo-Apps Control/myo.framework"; sourceTree = "<group>"; };
+		DEE329C41B64E1ED009DEAC3 /* MyoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoHelper.h; sourceTree = "<group>"; };
+		DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyoHelper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE329BC1B64DD2A009DEAC3 /* myo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 		DEE3298C1B64DB93009DEAC3 = {
 			isa = PBXGroup;
 			children = (
+				DEE329BB1B64DD2A009DEAC3 /* myo.framework */,
 				DEE329971B64DB93009DEAC3 /* Myo-Apps Control */,
 				DEE329AE1B64DB93009DEAC3 /* Myo-Apps ControlTests */,
 				DEE329961B64DB93009DEAC3 /* Products */,
@@ -79,10 +100,11 @@
 		DEE329971B64DB93009DEAC3 /* Myo-Apps Control */ = {
 			isa = PBXGroup;
 			children = (
+				DEE329C31B64E1ED009DEAC3 /* Myo-ObjC-Helper */,
 				DEE3299A1B64DB93009DEAC3 /* AppDelegate.h */,
 				DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */,
 				DEE3299F1B64DB93009DEAC3 /* ViewController.h */,
-				DEE329A01B64DB93009DEAC3 /* ViewController.m */,
+				DEE329A01B64DB93009DEAC3 /* ViewController.mm */,
 				DEE329A21B64DB93009DEAC3 /* Images.xcassets */,
 				DEE329A41B64DB93009DEAC3 /* Main.storyboard */,
 				DEE329981B64DB93009DEAC3 /* Supporting Files */,
@@ -116,6 +138,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DEE329C31B64E1ED009DEAC3 /* Myo-ObjC-Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DEE329C41B64E1ED009DEAC3 /* MyoHelper.h */,
+				DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */,
+			);
+			path = "Myo-ObjC-Helper";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +157,7 @@
 				DEE329911B64DB93009DEAC3 /* Sources */,
 				DEE329921B64DB93009DEAC3 /* Frameworks */,
 				DEE329931B64DB93009DEAC3 /* Resources */,
+				DE5DD1A61B6619220040603D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -215,7 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE329A11B64DB93009DEAC3 /* ViewController.m in Sources */,
+				DEE329A11B64DB93009DEAC3 /* ViewController.mm in Sources */,
+				DEE329C61B64E1ED009DEAC3 /* MyoHelper.mm in Sources */,
 				DEE3299E1B64DB93009DEAC3 /* main.m in Sources */,
 				DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */,
 			);
@@ -335,9 +368,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Myo-Apps\\ Control",
+				);
 				INFOPLIST_FILE = "Myo-Apps Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -346,9 +384,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Myo-Apps\\ Control",
+				);
 				INFOPLIST_FILE = "Myo-Apps Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -407,6 +450,7 @@
 				DEE329B71B64DB93009DEAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEE329B81B64DB93009DEAC3 /* Build configuration list for PBXNativeTarget "Myo-Apps ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +459,7 @@
 				DEE329BA1B64DB93009DEAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
