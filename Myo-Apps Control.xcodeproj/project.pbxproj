@@ -204,6 +204,7 @@
 				DEE329921B64DB93009DEAC3 /* Frameworks */,
 				DEE329931B64DB93009DEAC3 /* Resources */,
 				DE5DD1A61B6619220040603D /* CopyFiles */,
+				DEE4E3971BCE5C2300FFABE8 /* Make DMG */,
 			);
 			buildRules = (
 			);
@@ -288,6 +289,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEE4E3971BCE5C2300FFABE8 /* Make DMG */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make DMG";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ ${CONFIGURATION} == Release ]]; then\n    original=$CONFIGURATION_BUILD_DIR/$FULL_PRODUCT_NAME\n    outName=\"Myo-Apps-Control\"\n    dmgTemp=\"$SRCROOT/$outName\"\n    mkdir -p \"$dmgTemp\"\n    cp -r \"$original\" \"$dmgTemp\"\n    hdiutil create \"$SRCROOT/$outName\" -srcfolder \"$dmgTemp\" -ov\n    rm -rf \"$dmgTemp\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEE329911B64DB93009DEAC3 /* Sources */ = {
