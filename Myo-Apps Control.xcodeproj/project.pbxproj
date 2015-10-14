@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1492511B7DDDDA006BE7A1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE1492501B7DDDDA006BE7A1 /* ViewController.mm */; };
+		DE1492551B7DDE25006BE7A1 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1492541B7DDE25006BE7A1 /* BaseModel.m */; };
+		DE1492581B7DDE45006BE7A1 /* PresetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1492571B7DDE45006BE7A1 /* PresetModel.m */; };
+		DE14925D1B7DE038006BE7A1 /* MyoHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE14925C1B7DE038006BE7A1 /* MyoHelper.mm */; };
+		DE1492601B7DE13D006BE7A1 /* presets.json in Resources */ = {isa = PBXBuildFile; fileRef = DE14925F1B7DE13D006BE7A1 /* presets.json */; };
 		DE5DD1A71B66192B0040603D /* myo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DEE329BB1B64DD2A009DEAC3 /* myo.framework */; };
 		DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */; };
 		DEE3299E1B64DB93009DEAC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3299D1B64DB93009DEAC3 /* main.m */; };
-		DEE329A11B64DB93009DEAC3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEE329A01B64DB93009DEAC3 /* ViewController.mm */; };
 		DEE329A31B64DB93009DEAC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A21B64DB93009DEAC3 /* Images.xcassets */; };
 		DEE329A61B64DB93009DEAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE329A41B64DB93009DEAC3 /* Main.storyboard */; };
 		DEE329B21B64DB93009DEAC3 /* Myo_Apps_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */; };
 		DEE329BC1B64DD2A009DEAC3 /* myo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE329BB1B64DD2A009DEAC3 /* myo.framework */; };
-		DEE329C61B64E1ED009DEAC3 /* MyoHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,21 +45,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE14924F1B7DDDDA006BE7A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE1492501B7DDDDA006BE7A1 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		DE1492531B7DDE25006BE7A1 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DE1492541B7DDE25006BE7A1 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		DE1492561B7DDE45006BE7A1 /* PresetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetModel.h; sourceTree = "<group>"; };
+		DE1492571B7DDE45006BE7A1 /* PresetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetModel.m; sourceTree = "<group>"; };
+		DE14925B1B7DE038006BE7A1 /* MyoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoHelper.h; sourceTree = "<group>"; };
+		DE14925C1B7DE038006BE7A1 /* MyoHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyoHelper.mm; sourceTree = "<group>"; };
+		DE14925F1B7DE13D006BE7A1 /* presets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = presets.json; sourceTree = "<group>"; };
 		DEE329951B64DB93009DEAC3 /* Myo-Apps Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myo-Apps Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE329991B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE3299A1B64DB93009DEAC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DEE3299D1B64DB93009DEAC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEE3299F1B64DB93009DEAC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEE329A01B64DB93009DEAC3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		DEE329A21B64DB93009DEAC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DEE329A51B64DB93009DEAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE329AB1B64DB93009DEAC3 /* Myo-Apps ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo-Apps ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE329B01B64DB93009DEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE329B11B64DB93009DEAC3 /* Myo_Apps_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_Apps_ControlTests.m; sourceTree = "<group>"; };
 		DEE329BB1B64DD2A009DEAC3 /* myo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = myo.framework; path = "Myo-Apps Control/myo.framework"; sourceTree = "<group>"; };
-		DEE329C41B64E1ED009DEAC3 /* MyoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoHelper.h; sourceTree = "<group>"; };
-		DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyoHelper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE14924E1B7DDDDA006BE7A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE14924F1B7DDDDA006BE7A1 /* ViewController.h */,
+				DE1492501B7DDDDA006BE7A1 /* ViewController.mm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE1492521B7DDDED006BE7A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE1492531B7DDE25006BE7A1 /* BaseModel.h */,
+				DE1492541B7DDE25006BE7A1 /* BaseModel.m */,
+				DE1492561B7DDE45006BE7A1 /* PresetModel.h */,
+				DE1492571B7DDE45006BE7A1 /* PresetModel.m */,
+			);
+			name = Models;
+			path = "Myo-Apps Control/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		DE1492591B7DE038006BE7A1 /* import */ = {
+			isa = PBXGroup;
+			children = (
+				DE14925A1B7DE038006BE7A1 /* Myo-ObjC-Helper */,
+			);
+			path = import;
+			sourceTree = "<group>";
+		};
+		DE14925A1B7DE038006BE7A1 /* Myo-ObjC-Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DE14925B1B7DE038006BE7A1 /* MyoHelper.h */,
+				DE14925C1B7DE038006BE7A1 /* MyoHelper.mm */,
+			);
+			path = "Myo-ObjC-Helper";
+			sourceTree = "<group>";
+		};
+		DE14925E1B7DE112006BE7A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE14925F1B7DE13D006BE7A1 /* presets.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DEE3298C1B64DB93009DEAC3 = {
 			isa = PBXGroup;
 			children = (
@@ -100,13 +154,14 @@
 		DEE329971B64DB93009DEAC3 /* Myo-Apps Control */ = {
 			isa = PBXGroup;
 			children = (
-				DEE329C31B64E1ED009DEAC3 /* Myo-ObjC-Helper */,
 				DEE3299A1B64DB93009DEAC3 /* AppDelegate.h */,
 				DEE3299B1B64DB93009DEAC3 /* AppDelegate.m */,
-				DEE3299F1B64DB93009DEAC3 /* ViewController.h */,
-				DEE329A01B64DB93009DEAC3 /* ViewController.mm */,
+				DE14924E1B7DDDDA006BE7A1 /* Controllers */,
+				DE1492521B7DDDED006BE7A1 /* Models */,
 				DEE329A21B64DB93009DEAC3 /* Images.xcassets */,
 				DEE329A41B64DB93009DEAC3 /* Main.storyboard */,
+				DE14925E1B7DE112006BE7A1 /* Resources */,
+				DE1492591B7DE038006BE7A1 /* import */,
 				DEE329981B64DB93009DEAC3 /* Supporting Files */,
 			);
 			path = "Myo-Apps Control";
@@ -136,15 +191,6 @@
 				DEE329B01B64DB93009DEAC3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DEE329C31B64E1ED009DEAC3 /* Myo-ObjC-Helper */ = {
-			isa = PBXGroup;
-			children = (
-				DEE329C41B64E1ED009DEAC3 /* MyoHelper.h */,
-				DEE329C51B64E1ED009DEAC3 /* MyoHelper.mm */,
-			);
-			path = "Myo-ObjC-Helper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +276,7 @@
 			files = (
 				DEE329A31B64DB93009DEAC3 /* Images.xcassets in Resources */,
 				DEE329A61B64DB93009DEAC3 /* Main.storyboard in Resources */,
+				DE1492601B7DE13D006BE7A1 /* presets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE329A11B64DB93009DEAC3 /* ViewController.mm in Sources */,
-				DEE329C61B64E1ED009DEAC3 /* MyoHelper.mm in Sources */,
+				DE1492511B7DDDDA006BE7A1 /* ViewController.mm in Sources */,
+				DE14925D1B7DE038006BE7A1 /* MyoHelper.mm in Sources */,
 				DEE3299E1B64DB93009DEAC3 /* main.m in Sources */,
+				DE1492551B7DDE25006BE7A1 /* BaseModel.m in Sources */,
+				DE1492581B7DDE45006BE7A1 /* PresetModel.m in Sources */,
 				DEE3299C1B64DB93009DEAC3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

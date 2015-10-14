@@ -1,0 +1,68 @@
+{
+    "version": 1.0,
+    "presets": [
+        {
+            "app": "Spotify",
+            "commands": [
+                {
+                    "name": "Activate",
+                    "cmd": "tell application \"Spotify\" to activate"
+                },
+                {
+                    "name": "Play/Pause",
+                    "cmd": "tell application \"Spotify\" to playpause"
+                },
+                {
+                    "name": "Next",
+                    "cmd": "tell application \"Spotify\" to next track"
+                },
+                {
+                    "name": "Previous",
+                    "cmd": "tell application \"Spotify\" to previous track"
+                }
+            ]
+        },
+        {
+            "app": "iTunes",
+            "commands": [
+                {
+                    "name": "Activate",
+                    "cmd": "tell application \"iTunes\" to activate"
+                },
+                {
+                    "name": "Play/Pause",
+                    "cmd": "tell application \"iTunes\" to playpause"
+                },
+                {
+                    "name": "Next",
+                    "cmd": "tell application \"iTunes\" to next track"
+                },
+                {
+                    "name": "Previous",
+                    "cmd": "tell application \"iTunes\" to previous track"
+                }
+            ]
+        },
+        {
+            "app": "Test app",
+            "commands": [
+                {
+                    "name": "test1",
+                    "cmd": ""
+                },
+                {
+                    "name": "test2",
+                    "cmd": ""
+                },
+                {
+                    "name": "test3",
+                    "cmd": ""
+                },
+                {
+                    "name": "test4",
+                    "cmd": ""
+                }
+            ]
+        }
+    ]
+}
